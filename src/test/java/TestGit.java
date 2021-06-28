@@ -28,7 +28,7 @@ public class TestGit {
 		}
 		@AfterSuite
 		public void teardown(){
-			//driver.quit();
+			driver.quit();
 		}
 		
 		
