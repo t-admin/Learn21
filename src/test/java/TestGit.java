@@ -15,6 +15,7 @@ public class TestGit {
 		public void setup() {
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\tsneh\\OneDrive\\Documents\\Jars\\broswer jar\\chromedriver.exe");
 			driver=new ChromeDriver();
+			driver.manage().window().maximize();
 		}
 		
 		@Test
@@ -23,8 +24,9 @@ public class TestGit {
 			driver.get("https://gmail.com");
 			driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("sneha.thadishetty");
 			driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span")).click();
-			//driver.findElement(By.type("password")).sendkeys("sjkkjb");
-			
+			/*jjsfjsbdfjb
+			 * njn			
+			 */
 			
 		}
 		@AfterSuite
